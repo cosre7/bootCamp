@@ -1,6 +1,6 @@
 * {
     color: pink;
-    background-color: salmon;
+    background-color: fdfcdc;
 }
 
 button {
@@ -20,4 +20,16 @@ h1, h2 {
     background-color: #c8b6ff;
     color: #bbd0ff;
     font-size: 16px;
+}
+
+span {
+    color: #b8c0ff;
+}
+
+span a {
+    color: darkcyan;
+}
+
+li a {
+    color: #ff758f;
 }
