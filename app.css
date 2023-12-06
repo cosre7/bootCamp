@@ -51,3 +51,19 @@ footer a {
 footer > a {
     color: red;
 }
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+section[class="post"] {
+    background-color: yellow;
+}
+
+section.post {
+    background-color: #ff758f;
+}
+
+a[href*="google"] {
+    color: red;
+}
