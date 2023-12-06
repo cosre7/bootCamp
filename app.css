@@ -67,3 +67,26 @@ section.post {
 a[href*="google"] {
     color: red;
 }
+
+a:hover {
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.post button:hover {
+    background-color: blue;
+    text-decoration: underline wavy;
+}
+
+button:active {
+    background-color: beige;
+    color: dimgray;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #bf0603;
+}
