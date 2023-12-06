@@ -1,14 +1,7 @@
-h2 {
-    color: #5FcFFC;
-    background-color: rgb(112, 143, 70);
-}
-
-button {
-    color: magenta;
-    background-color: blueviolet;
+h1 {
+    text-align: center;
 }
 
 p {
-    color: olive;
-    background: orange;
+    text-align: right;
 }
