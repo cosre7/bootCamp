@@ -10,3 +10,8 @@ button {
 h1, h2 {
     color: darkcyan;
 }
+
+#signup {
+    background-color: #ffd6ff;
+    color: #bbd0ff;
+}
