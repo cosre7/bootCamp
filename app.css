@@ -26,10 +26,28 @@ span {
     color: #b8c0ff;
 }
 
-span a {
+.post a {
     color: darkcyan;
 }
 
 li a {
     color: #ff758f;
+}
+
+input + button {
+    background-color: pink;
+    color: black;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+footer a {
+    color: aqua;
+}
+
+footer > a {
+    color: red;
 }
