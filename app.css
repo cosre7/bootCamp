@@ -15,3 +15,9 @@ h1, h2 {
     background-color: #ffd6ff;
     color: #bbd0ff;
 }
+
+.tag {
+    background-color: #c8b6ff;
+    color: #bbd0ff;
+    font-size: 16px;
+}
