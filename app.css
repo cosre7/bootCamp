@@ -1,7 +1,9 @@
 h1 {
     text-align: center;
+    font-weight: 900;
 }
 
 p {
     text-align: right;
+    font-weight: 300;
 }
