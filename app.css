@@ -1,28 +1,12 @@
-h1 {
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    letter-spacing: 10px;
-    font-size: 100px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: fantasy;
+* {
+    color: pink;
+    background-color: salmon;
 }
 
-p {
-    text-align: right;
-    font-weight: 300;
-    line-height: 2;
+button {
+    font-size: 30px;
 }
 
-h2 {
-    text-decoration: overline;
-    line-height: 3;
-}
-
-h3 {
-    text-decoration: #f23020 wavy line-through;
-}
-
-a {
-    text-decoration: none;
+h1, h2 {
+    color: darkcyan;
 }
