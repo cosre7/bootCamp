@@ -13,7 +13,7 @@ h1, h2 {
 
 #signup {
     background-color: #ffd6ff;
-    color: #bbd0ff;
+    color: #bbd0ff !important; 
 }
 
 .tag {
@@ -105,4 +105,9 @@ p::selection {
 
 h1, h2 {
     color: aquamarine;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
 }
