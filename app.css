@@ -1,113 +1,19 @@
-* {
-    color: pink;
-    background-color: fdfcdc;
-}
-
-button {
-    font-size: 30px;
-}
-
-h1, h2 {
-    color: darkcyan;
-}
-
-#signup {
-    background-color: #ffd6ff;
-    color: #bbd0ff !important; 
-}
-
-.tag {
-    background-color: #c8b6ff;
-    color: #bbd0ff;
-    font-size: 16px;
-}
-
-span {
-    color: #b8c0ff;
-}
-
-.post a {
-    color: darkcyan;
-}
-
-li a {
-    color: #ff758f;
-}
-
-input + button {
-    background-color: pink;
-    color: black;
-}
-
-h2 + button {
-    font-size: 20px;
-    background-color: magenta;
-}
-
-footer a {
-    color: aqua;
-}
-
-footer > a {
-    color: red;
-}
-
-input[type="password"] {
-    color: greenyellow;
-}
-
-section[class="post"] {
-    background-color: yellow;
-}
-
-section.post {
-    background-color: #ff758f;
-}
-
-a[href*="google"] {
-    color: red;
-}
-
-a:hover {
-    font-size: 50px;
-}
-
-button:hover {
-    background-color: aqua;
-    color: white;
-}
-
-.post button:hover {
-    background-color: blue;
-    text-decoration: underline wavy;
-}
-
-button:active {
-    background-color: beige;
-    color: dimgray;
-}
-
-.post:nth-of-type(2n) {
-    background-color: #bf0603;
-}
-
-h2::first-letter {
-    font-size: 50px;
-}
-
-p::first-line {
+body {
     color: purple;
 }
 
-p::selection {
-    background-color: yellow;
+h1 {
+    color: blue;
 }
 
-h1, h2 {
-    color: aquamarine;
+section {
+    color: aqua;
 }
 
-button:hover {
-    background-color: olive;
-    font-size: 10px;
+nav {
+    color: greenyellow;
+}
+
+button {
+    color: inherit;
 }
