@@ -1,19 +1,10 @@
-body {
-    color: purple;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #e7c6ff;
 }
 
 h1 {
-    color: blue;
-}
-
-section {
-    color: aqua;
-}
-
-nav {
-    color: greenyellow;
-}
-
-button {
-    color: inherit;
+    background-color: blueviolet;
+    width: 100px;
 }
