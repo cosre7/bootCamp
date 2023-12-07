@@ -90,3 +90,15 @@ button:active {
 .post:nth-of-type(2n) {
     background-color: #bf0603;
 }
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: yellow;
+}
