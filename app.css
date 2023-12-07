@@ -8,3 +8,26 @@ h1 {
     background-color: blueviolet;
     width: 100px;
 }
+
+#one {
+    background-color: #fff0f3;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: #ffccd5;
+    border-color: #590d22;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-width: 8px;
+}
+
+#three {
+    background-color: #ff8fa3;
+    border: 4px solid #590d22;
+    border-left-width: 8px;
+    border-radius: 10px;
+}
