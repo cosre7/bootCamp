@@ -13,12 +13,18 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-wrap: wrap;
-    align-content: center;
 }
 
 #container div {
-    width: 400px;
+    width: 200px;
     height: 200px;
+}
+
+div:nth-of-type(3) {
+    align-self: flex-end;
+}
+div:nth-of-type(2) {
+    align-self: center;
 }
