@@ -55,3 +55,14 @@ delayedColorChange('red', 1000, () => {
         })
     })
 });
+
+// 콜백 지옥 예시
+searchMoviesAPI('spiderman', () => {
+    saveToMyDB(movies, () => {
+        // if it works, run this:
+    }, () => {
+        // if it doesn't work, run this:
+    })
+}, () => {
+    // if API is down, or request failed:
+})
