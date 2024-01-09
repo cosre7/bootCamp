@@ -30,6 +30,7 @@
 //     console.log(e);
 // });
 
+// 비동기 방식 
 const loadStarWarsPeople = async () => {
     try {
         const res = await fetch("https://swapi.dev/api/people/1/");
